@@ -18,13 +18,13 @@ public class sceneManagement : MonoBehaviour
         SceneManager.LoadScene("1");
     }
 
-     public void WaitMall()
+     public void WaitSwordLake()
     {
-        Invoke("Mall",2);
+        Invoke("SwordLake",2);
     }
 
     // Update is called once per frame
-    public void Mall()
+    public void SwordLake()
     {
         SceneManager.LoadScene("2");
     }
@@ -40,33 +40,33 @@ public class sceneManagement : MonoBehaviour
         SceneManager.LoadScene("1");
     }
 
-         public void WaitPark()
+         public void WaitTrangTien()
     {
-        Invoke("Park",2);
+        Invoke("TrangTien",2);
     }
 
     // Update is called once per frame
-    public void Park()
+    public void TrangTien()
     {
         SceneManager.LoadScene("1");
     }
-         public void WaitCompany()
+         public void WaitHCMMausoleum()
     {
-        Invoke("Company",2);
+        Invoke("HCMMausoleum",2);
     }
 
     // Update is called once per frame
-    public void Company()
+    public void HCMMausoleum()
     {
         SceneManager.LoadScene("1");
     }
-         public void WaitFactory()
+         public void WaitPillarPaagoda()
     {
-        Invoke("Factory",2);
+        Invoke("PillarPaagoda",2);
     }
 
     // Update is called once per frame
-    public void Factory()
+    public void PillarPaagoda()
     {
         SceneManager.LoadScene("1");
     }
